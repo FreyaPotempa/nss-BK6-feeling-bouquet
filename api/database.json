@@ -1,0 +1,101 @@
+{
+    "flowers": [
+        { "id": 1, "commonName": "Lily", "color": "white" },
+        { "id": 2, "commonName": "Rose", "color": "red" },
+        { "id": 3, "commonName": "Begonia", "color": "yellow" },
+        { "id": 4, "commonName": "Marigold", "color": "orange" },
+        { "id": 5, "commonName": "Pinchusion Protea", "color": "red" }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Lillie's Shop",
+            "city": "Herminaport",
+            "state": "Tennessee",
+            "address": "4216 Corkery Path",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Hessel - Lueilwitz",
+            "city": "Lemkefurt",
+            "state": "Delaware",
+            "address": "144 Nash Valley",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Runte - Ernser",
+            "city": "Hansenmouth",
+            "state": "Hawaii",
+            "address": "12 Stanton Court",
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "name": "Considine - Bashirian",
+            "city": "Indianapolis",
+            "state": "Indiana",
+            "address": "64653 Olson Curve",
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "name": "Wisozk - Effertz",
+            "city": "Homenickton",
+            "state": "North Dakota",
+            "address": "972 Denesik Lock",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Compatible Moratorium",
+            "city": "North Reymundoside",
+            "state": "Connecticut",
+            "address": "91134 Catalina Curve"
+        },
+        {
+            "id": 2,
+            "name": "Realigned 24 Hour Capability",
+            "city": "Sunrise",
+            "state": "California",
+            "address": "12497 Steuber Summit"
+        },
+        {
+            "id": 3,
+            "name": "Polarised Distro",
+            "city": "Temecula",
+            "state": "Nebraska",
+            "address": "3126 Gonzalo Junction"
+        }
+    ],
+    "nurseries": [
+        { "id": 1, "name": "even-keeled" },
+        { "id": 2, "name": "Proactive" },
+        { "id": 3, "name": "Object-based" },
+        { "id": 4, "name": "Cross-platform" },
+        { "id": 5, "name": "Exclusive" }
+    ],
+    "flowerNurseryRel": [
+        { "id": 1, "flowerId": 3, "nurseryId": 1},
+        { "id": 2, "flowerId": 5, "nurseryId": 1},
+        { "id": 3, "flowerId": 4, "nurseryId": 2},
+        { "id": 4, "flowerId": 2, "nurseryId": 2},
+        { "id": 5, "flowerId": 2, "nurseryId": 3},
+        { "id": 6, "flowerId": 1, "nurseryId": 3},
+        { "id": 7, "flowerId": 1, "nurseryId": 4},
+        { "id": 8, "flowerId": 5, "nurseryId": 4},
+        { "id": 9, "flowerId": 4, "nurseryId": 5},
+        { "id": 10, "flowerId": 2, "nurseryId": 5}
+    ],
+    "nurseryDistroRel": [
+        { "id": 1, "nurseryId": 1, "distributorId": 1},
+        { "id": 2, "nurseryId": 3, "distributorId": 1},
+        { "id": 3, "nurseryId": 4, "distributorId": 2},
+        { "id": 4, "nurseryId": 2, "distributorId": 2},
+        { "id": 5, "nurseryId": 5, "distributorId": 3},
+        { "id": 6, "nurseryId": 2, "distributorId": 3}
+    ]
+}
