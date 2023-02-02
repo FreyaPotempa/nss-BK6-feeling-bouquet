@@ -1,0 +1,27 @@
+.retailers {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted gray
+}
+
+.shopInfo {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px dashed green;
+}
+
+.distributor {
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+.nurseries {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nursery_name {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid purple
+}

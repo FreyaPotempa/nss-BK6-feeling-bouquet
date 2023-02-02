@@ -4,10 +4,9 @@ import { Retailers } from "./Retailers.js"
 
 export const Bouquet = () => {
     return `
+    <header class="top">
     <h1>Feeling Bouquet</h1>
-    <section class="flowers">
-    ${Flowers()}
-    </section>
+    </header>
     <section class="retailers">
     ${Retailers()}
     </section>
