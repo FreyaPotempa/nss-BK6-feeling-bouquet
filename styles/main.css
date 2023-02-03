@@ -11,8 +11,6 @@
 }
 
 .distributor {
-    font-weight: bold;
-    background-color: antiquewhite;
 }
 
 .nurseries {
@@ -23,5 +21,12 @@
 .nursery_name {
     display: flex;
     flex-direction: column;
-    border: 1px solid purple
+    border: 1px solid purple;
+    padding: 8px;
+    margin: 12px;
+    background-color: lightgreen;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
 }

@@ -17,7 +17,7 @@
         },
         {
             "id": 2,
-            "name": "Hessel - Lueilwitz",
+            "name": "Flowers'R'Us",
             "city": "Lemkefurt",
             "state": "Delaware",
             "address": "144 Nash Valley",
@@ -25,7 +25,7 @@
         },
         {
             "id": 3,
-            "name": "Runte - Ernser",
+            "name": "Plant Ladies",
             "city": "Hansenmouth",
             "state": "Hawaii",
             "address": "12 Stanton Court",
@@ -33,7 +33,7 @@
         },
         {
             "id": 4,
-            "name": "Considine - Bashirian",
+            "name": "Baby Billy's Flowers",
             "city": "Indianapolis",
             "state": "Indiana",
             "address": "64653 Olson Curve",
@@ -41,7 +41,7 @@
         },
         {
             "id": 5,
-            "name": "Wisozk - Effertz",
+            "name": "Willow Bark Outlet",
             "city": "Homenickton",
             "state": "North Dakota",
             "address": "972 Denesik Lock",
@@ -51,14 +51,14 @@
     "distributors": [
         {
             "id": 1,
-            "name": "Compatible Moratorium",
+            "name": "Moving Moratorium",
             "city": "North Reymundoside",
             "state": "Connecticut",
             "address": "91134 Catalina Curve"
         },
         {
             "id": 2,
-            "name": "Realigned 24 Hour Capability",
+            "name": "24 Hour Truckin",
             "city": "Sunrise",
             "state": "California",
             "address": "12497 Steuber Summit"
@@ -72,11 +72,11 @@
         }
     ],
     "nurseries": [
-        { "id": 1, "name": "even-keeled" },
-        { "id": 2, "name": "Proactive" },
-        { "id": 3, "name": "Object-based" },
-        { "id": 4, "name": "Cross-platform" },
-        { "id": 5, "name": "Exclusive" }
+        { "id": 1, "name": "Growing Plans" },
+        { "id": 2, "name": "Proactive Plants" },
+        { "id": 3, "name": "Cross-Contaminations" },
+        { "id": 4, "name": "Plantforming" },
+        { "id": 5, "name": "Exclusive Seeds" }
     ],
     "flowerNurseryRel": [
         { "id": 1, "flowerId": 3, "nurseryId": 1},
